@@ -7,7 +7,7 @@ import { UsersModule } from './users/users.module';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: '127.0.0.1',
-      port: 3306,
+      port: 3366,
       username: 'root',
       password: 'root',
       database: 'test',
@@ -17,4 +17,4 @@ import { UsersModule } from './users/users.module';
     UsersModule,
   ],
 })
-export class AppModule {}
+export class AppModule { }

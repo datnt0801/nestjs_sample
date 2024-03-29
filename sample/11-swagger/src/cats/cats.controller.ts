@@ -13,7 +13,7 @@ import { Cat } from './entities/cat.entity';
 @ApiTags('cats')
 @Controller('cats')
 export class CatsController {
-  constructor(private readonly catsService: CatsService) {}
+  constructor(private readonly catsService: CatsService) { }
 
   @Post()
   @ApiOperation({ summary: 'Create cat' })
