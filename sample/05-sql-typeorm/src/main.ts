@@ -7,7 +7,7 @@ async function bootstrap() {
 
   const options = new DocumentBuilder()
     .setTitle('Backend example')
-    .setDescription('A backend example made by Delan')
+    .setDescription('A backend example made by Dylan')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
